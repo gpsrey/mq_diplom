@@ -282,7 +282,7 @@ body {
     position: absolute; 
     background: #e1d9bd; 
     left: 50%;
-    margin-left: -32.5px; 
+    transform: translateX(-50%); 
     bottom: -5px; 
     width: 65px; 
     height: 3px; 
@@ -302,7 +302,7 @@ body {
     background: #e1d9bd; 
     display: inline-block;
     left: 50%; 
-    margin-left: -32.5px;
+    transform: translateX(-50%);
     bottom: -5px;  
     width: 65px; 
     height: 3px; 
@@ -313,7 +313,7 @@ body {
     position: absolute; 
     background: #e1d9bd; 
     left: 50%; 
-    margin-left: -32.5px; 
+    transform: translateX(-50%); 
     bottom: -5px; 
     width: 65px; 
     height: 3px; 
@@ -523,7 +523,6 @@ body {
   text-align: center;
   font-weight: 700;
   font-size: 20px;
-
   width: 1170px;
   margin: 0 auto;
 }
@@ -534,19 +533,19 @@ body {
 
 .products {
   display: flex;
-  margin-bottom: 110px;
+  margin: 0px 25px 110px 25px;
+
 }
 
 .product {
-  width: 33%;
-  margin-right: 7%;
+  width: 33.3%;
+  margin-right: 110px;
 }
 
 .product_img {
   margin-bottom: 10px;
-    width: 100%;
+  width: 100%;
 }
-
 
 .score_button {
   font-size: 14px;
@@ -579,7 +578,7 @@ body {
 .product_content {
   height: 260px;
   outline: 3px solid #b59f5b;
-  outline-offset: 1.5em;
+  outline-offset: 20px;
   text-align: left;
   flex-grow: 1;
   
@@ -673,9 +672,10 @@ body {
 
 .hidden {
   display: none;
-}
+} 
 
 .popup_body {
+  font-family: "OpenSans";
   min-height: 100%;
   display: flex;
   align-items: center;
@@ -692,6 +692,7 @@ body {
 }
 
 .popup_title {
+
   position: relative;
   font-size: 1rem;
   text-transform: uppercase;
@@ -703,7 +704,8 @@ body {
     content: ''; 
     position: absolute; 
     background: #e1d9bd; 
-    left: 40%; 
+    left: 50%; 
+    transform: translateX(-50%);
     bottom: -5px; 
     width: 65px; 
     height: 3px; 
