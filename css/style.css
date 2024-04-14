@@ -692,9 +692,8 @@ body {
 }
 
 .popup_title {
-
   position: relative;
-  font-size: 1rem;
+  font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 20px;
   text-align: center;
@@ -803,7 +802,7 @@ body {
   margin: 10px 0 20px 0;
   resize: none;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 13px;
   border: none;
   background-color: #f4f7f6;
   box-sizing: border-box;
@@ -815,6 +814,7 @@ body {
   padding: 15px 0;
   text-transform: uppercase;
   font-family: inherit;
+  font-size: 14px;
   font-weight: 700;
   color: #ffffff;
   background-color: #b59f5b;
