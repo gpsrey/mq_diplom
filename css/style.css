@@ -209,7 +209,6 @@ body {
   font-weight: 700;
 }
 
-
 .middle {
   width: 1170px;
   margin: 0 auto;
@@ -863,6 +862,10 @@ body {
   display: none;
 }
 
+.footer, .middle, .card_header {
+  width: 700px;
+}
+
 .header {
   background-image: url(../img/banner-bg-tablet.jpg);
   padding: 35px 35px 100px 35px;
@@ -873,15 +876,17 @@ body {
   height: 25px;
 }
 .description {
-  font-size: 5vw;
+  width: 100%;
+  font-size: 40px;
 }
 
 .title_products, .title_trends {
-  font-size: 2.3vw;
+  font-size: 18px;
 }
 
 .trends {
-  font-size: 2.2vw;
+  width: 100%;
+  font-size: 17px;
   margin-bottom: 50px;
 }
 
@@ -901,9 +906,6 @@ body {
   margin-bottom: 4px;
 }
 
-.middle {
-  margin: 0 auto;
-}
 
 .date_author {
   margin: 40px 0px;
@@ -929,12 +931,8 @@ body {
  border: none;
 }
 
-.article_title {
-  font-size: 2.2vw;
-}
-
-.trend_link {
-  font-size: 2.2vw;
+.article_title, .trend_link {
+  font-size: 17px;
 }
 
 .article_description {
@@ -950,7 +948,7 @@ body {
 }
 
 .our_products, .socials {
-  width: 698px;
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -981,10 +979,8 @@ body {
   outline-offset: 23px;
 }
 
-.copyright {
-margin-top: 50px;
-}
-}
+  }
+
 /*=================================================================*/
 
   @media (max-width: 360px) {
@@ -1001,7 +997,7 @@ background-image: url(../img/banner-mobile.jpg);
 
 .logo {
   display: block;
-margin: 180px 0px 0px 0px;
+  margin: 180px 0px 0px 0px;
   height: 50px;
 }
 
@@ -1010,7 +1006,7 @@ margin: 180px 0px 0px 0px;
 }
 
 .trend_link {
-  font-size: 4.5vw;
+  font-size: 16px;
 }
 
 .description {
@@ -1035,12 +1031,9 @@ margin: 180px 0px 0px 0px;
     margin-bottom: 35px;
   }
 
-.title1 {
-  font-size: 4.4vw;
-}
 
 .trends, .title_trends, .products_title {
-  font-size: 4.4vw;
+  font-size: 17px;
 }
 
 .trends_content {
@@ -1126,6 +1119,10 @@ margin: 180px 0px 0px 0px;
 
 .product_content {
   outline-offset: 23px;
+}
+
+.footer {
+  width: 330px;
 }
 
   }
